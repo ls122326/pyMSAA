@@ -264,6 +264,7 @@ SELFLAG_REMOVESELECTION 16
         iRole = self.accRole()
         return '[%s(0x%X)|%r|ChildCount:%d]' % (AccRoleNameMap.get(iRole, 'Unkown'), iRole, self.accName(), self.IAccessible.accChildCount)
 
+	#纯为了测试用
     def match(self, strRoleName, **kwargs):
         '''search match'''
         bMatched = True
