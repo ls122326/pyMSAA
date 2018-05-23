@@ -1,2 +1,3 @@
 if __name__ == "__main__":
-    print('main')
+    #注视下
+    print('main1')
